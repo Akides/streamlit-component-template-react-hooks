@@ -1,12 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import { StreamlitProvider } from "streamlit-component-lib-react-hooks"
-import MyComponent from "./MyComponent"
+import CustomTable from "./CustomTable"
 
 ReactDOM.render(
   <React.StrictMode>
     <StreamlitProvider>
-      <MyComponent />
+      <CustomTable />
     </StreamlitProvider>
   </React.StrictMode>,
   document.getElementById("root")
